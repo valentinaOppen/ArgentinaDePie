@@ -1,0 +1,112 @@
+@media screen and (max-width: 600px)
+{
+
+    #pTitle
+    {
+        margin-bottom:8% !important;
+    }
+
+    hr
+    {
+        /* margin:0 10vw 0 10vw !important; */        
+        border-top: 2px solid #ccc;
+    }
+
+    .gridHeader 
+    {        
+        width: 90% !important;   
+        grid-row-gap: 4vw !important;     
+    }
+
+    .fab 
+    {        
+        padding: 1vh !important;
+    }
+
+    .gridPrincipal
+    {        
+        background-image: url(img/ArgentinaDePie_HeaderBackground_mobile.jpg) !important;
+        padding-bottom:5%;
+    }
+
+    .divRedes
+    {
+        padding-top:0vh;
+    }
+
+    .divTitle
+    {
+        font-size:7vw !important;
+        padding: 0 3% 10% 3%;
+    }
+
+    .textHeader
+    {      
+        grid-template-columns: 1fr !important;
+    }
+
+    #divContanos
+    {
+        font-size:4vw !important;
+    }
+
+    #textHeaderPropuesta 
+    {
+        font-size: 6vw !important;
+        padding-bottom: 4vw !important;
+        font-family: chivoLight;
+    }
+
+    #divContent
+    {
+        background-image: url(img/ArgentinaDePie_ContentBackground_mobile.jpg) !important;        
+        /* background-position: center !important; */
+        /* background-repeat: no-repeat; */
+        /* display: block; */
+        /* background-size:cover;    */
+        /* height:fit-content;     */
+        padding-bottom:0% !important;
+    }
+
+    .gridOptions
+    {            
+      grid-template-rows: 0 25vw auto 15vw !important;     
+    }
+
+    #divBlock
+    {
+        background-color:transparent !important;
+    }
+
+    #divTextElegi
+    {
+        font-size:5vw !important;
+        margin-top: 15%;
+    }
+
+    .btnCategoria
+    {
+        height:40vw !important;
+        font-size:6vw !important;
+        text-align: center !important;
+    }
+
+    .divCategoria
+    {
+        display: none;
+    }
+
+    .divCategoriaMobile
+    {
+        display:unset !important;
+    }
+
+    .btnMasCategorias
+    {
+        display:unset !important;
+        color: #004463;
+        text-align: right;
+        margin:auto 0;
+    }
+
+}
