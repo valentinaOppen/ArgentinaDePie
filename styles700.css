@@ -14,7 +14,7 @@
 
     .gridOptions
     {    
-      grid-template-rows: 3vw 7.5vw auto auto auto auto !important;     
+      grid-template-rows: 3vw 9vw auto auto auto auto !important;     
     }
     
 
@@ -63,5 +63,59 @@
     .hayAlternativa
     {
         font-size:2.5vw;
+    }
+
+    .pCategorias {
+        font-size: 3.6vw !important;
+    }
+
+    .gridCamposPropuesta
+    {
+        display: grid;
+        grid-template-columns:1fr !important;
+        grid-column-gap: 2vh;     
+    }
+
+    .pLabelMobile
+    {
+        display: unset !important;
+        font-size:3vw !important;
+    }
+
+    .pLabels
+    {
+        display:none;
+    }
+
+    #btnEnviarCategoria
+    {
+        font-size:3vw !important;
+    }
+
+    .form-control
+    {
+        background-color:#587D96 !important;
+        margin: 2vw 0 1vw 0;
+        height:60px;
+    }
+
+    .hayAlternativa
+    {
+        display:none;
+    }
+
+    .divRedesBottom 
+    {    
+        width: unset !important;
+    }
+
+    textarea.form-control
+    {
+        height: 150px;
+    }
+
+    .pContanos
+    {
+        font-size:3vw;
     }
 }

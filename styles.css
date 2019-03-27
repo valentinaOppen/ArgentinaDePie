@@ -21,19 +21,14 @@
     src:url(font/Chivo-Regular.otf);
 }
 
-  body 
-  {    
+    body 
+    {    
     background: #f5f7f8;
     margin:0;
     color:white;
     text-align: center;
     font-family: chivoBold;
-  }
-
-  .divCategoriaMobile
-  {
-      display:none;
-  }
+    }
 
     .btnMasCategorias
     {
@@ -115,12 +110,23 @@
     grid-column-gap: 2vh;     
   }
 
+
   .textFormulario
   {
       display:grid;
       width:100%;
       grid-template-columns: 1fr;
       
+  }
+
+  .pLabels
+  {
+      font-size: 1vw;
+  }
+
+  .pLabelMobile
+  {
+      display:none;
   }
 
   .divRedes {
@@ -172,7 +178,7 @@
     background-repeat: no-repeat;
     /* display: block; */
     background-size:cover;   
-    height:fit-content;    
+    height:fit-content !important;    
     padding-bottom:4%;
 }
 
@@ -202,6 +208,11 @@
     text-align: left;
     padding-left:2vw;
     border-bottom:solid white 2px;
+}
+
+.btnCategoria :active
+{
+    background-color: red;
 }
 
 .pCategorias
@@ -274,4 +285,10 @@
 .fabBottom
 {
     padding-left:2vw !important;    
+}
+
+.pContanos
+{
+    font-family: chivoBold;
+    padding:5% 0 1% 0;
 }

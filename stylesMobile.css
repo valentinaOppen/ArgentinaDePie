@@ -66,11 +66,13 @@
         /* background-size:cover;    */
         /* height:fit-content;     */
         padding-bottom:0% !important;
+        height:100vh !important;
     }
 
     .gridOptions
     {            
-      grid-template-rows: 0 25vw auto 15vw !important;     
+      grid-template-rows: 0 25vw auto !important;  
+      padding-bottom:10%;   
     }
 
     #divBlock
@@ -86,27 +88,62 @@
 
     .btnCategoria
     {
-        height:40vw !important;
-        font-size:6vw !important;
-        text-align: center !important;
+        height:10vw !important;
+        font-size:3vw !important;
+        /* text-align: center !important; */
+    }    
+
+
+
+    .pCategorias {
+        font-size: 3.6vw !important;
     }
 
-    .divCategoria
+    .gridCamposPropuesta
     {
-        display: none;
+        display: grid;
+        grid-template-columns:1fr !important;
+        grid-column-gap: 2vh;     
     }
 
-    .divCategoriaMobile
+    .pLabelMobile
     {
-        display:unset !important;
+        display: unset !important;
+        font-size:3vw !important;
     }
 
-    .btnMasCategorias
+    .pLabels
     {
-        display:unset !important;
-        color: #004463;
-        text-align: right;
-        margin:auto 0;
+        display:none;
     }
 
+    .form-control
+    {
+        margin: 2vw 0 1vw 0;
+    }
+
+    #btnEnviarCategoria
+    {
+        font-size:3vw !important;
+    }
+
+    .form-control
+    {
+        background-color:#587D96 !important;
+    }
+
+    .hayAlternativa
+    {
+        display:none;
+    }
+
+    .divRedesBottom 
+    {    
+        width: unset !important;
+    }
+
+    textarea.form-control
+    {
+        height: 100px;
+    }
 }
