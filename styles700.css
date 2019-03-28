@@ -1,11 +1,11 @@
 @media screen and (max-width: 780px) and (min-width:600px)
 {
-    .gridPrincipal
+    /* .gridPrincipal
     {
         
         background-image: url(img/ArgentinaDePie_HeaderBackground_700.jpg);
 
-    }
+    } */
     
     .gridHeader {
         /* grid-template-rows: 7vw 10vw 10vw !important; */
@@ -49,11 +49,11 @@
         height: 8vw;
         font-size: 3vw;
     }
-
+/* 
     #divContent
     {
         background-image: url(img/ArgentinaDePie_ContentBackground_700.jpg);    
-    }
+    } */
     
     .divRedesBottom
     {    

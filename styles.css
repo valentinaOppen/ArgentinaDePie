@@ -23,11 +23,11 @@
 
     body 
     {    
-    background: #f5f7f8;
-    margin:0;
-    color:white;
-    text-align: center;
-    font-family: chivoBold;
+        background: #f5f7f8;
+        margin:0;
+        color:white;
+        text-align: center;
+        font-family: chivoBold;
     }
 
     .btnMasCategorias
@@ -35,44 +35,41 @@
         display:none;
     }
 
-  .fab
-  {
+    .fab
+    {
     color:white;
     padding:3vh;
-  }
+    }
   
-  p
-  {
+    p
+    {
     margin:0 !important;
-  }
+    }
 
-  hr
-  {
-      /* margin:0 10vw 0 10vw !important; */
-      margin:0 !important;      
-      border-top: 2px solid white;
-  }
+    hr
+    {
+        /* margin:0 10vw 0 10vw !important; */
+        margin:0 !important;      
+        border-top: 2px solid white;
+    }
 
 
-  .gridPrincipal
-  {
-    /* display: grid; */
-    width: 100vw;
-    height: fit-content;
-    /* min-height: 220px; */
-    /* max-width: 100%; */
-    margin:0 auto;
-    background-image: url(img/ArgentinaDePie_HeaderBackground.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    /* display: block; */
-    background-size:cover;    
-    /* grid-template-columns: 1fr; */
-    grid-template-rows: auto;
-    /* grid-template-areas: "header"
-                         "main"
-                         "footer"; */
-  }
+    .gridPrincipal
+    {    
+        width: 100vw;
+        height: fit-content;
+        margin:0 auto;
+        background-image: url(img/ArgentinaDePie_HeaderBackground.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        /* display: block; */
+        background-size:cover;    
+        /* grid-template-columns: 1fr; */
+        grid-template-rows: auto;
+        /* grid-template-areas: "header"
+                            "main"
+                            "footer"; */
+    }
 
   .divHeader
   {      
@@ -89,6 +86,14 @@
       grid-column-gap: 1vh;      
       grid-row-gap: 6vh;        
       padding-bottom: 4%;
+  }
+
+  .divContent
+  {
+    display: grid;
+    grid-template-columns: 17% 66% 17%;
+    background-color: white;
+
   }
 
   .gridOptions
@@ -173,13 +178,32 @@
 
 #divContent
 {
-    background-image: url(img/ArgentinaDePie_ContentBackground.jpg);
+    /* background-image: url(img/ArgentinaDePie_ContentBackground.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    /* display: block; */
-    background-size:cover;   
+    background-size:cover;    */
     height:fit-content !important;    
     padding-bottom:4%;
+    display:grid;
+    grid-template-columns: 17% 66% 17%;
+    background-color: white;
+}
+
+.marginLeft
+{
+    background-image: url(img/ArgentinaDePie_ContentBackground_MarginLeft.png);
+    background-size:100%;
+    background-repeat: no-repeat;
+}
+
+.img-thumbnail 
+{
+    padding: unset;
+    background-color: transparent;
+    border: none;
+    border-radius: .25rem;
+    max-width: 100%;
+    height: auto;
 }
 
 #divBlock

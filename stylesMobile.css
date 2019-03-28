@@ -25,7 +25,7 @@
 
     .gridPrincipal
     {        
-        background-image: url(img/ArgentinaDePie_HeaderBackground_mobile.jpg) !important;
+        /* background-image: url(img/ArgentinaDePie_HeaderBackground_mobile.jpg) !important; */
         padding-bottom:5%;
     }
 
@@ -59,7 +59,7 @@
 
     #divContent
     {
-        background-image: url(img/ArgentinaDePie_ContentBackground_mobile.jpg) !important;        
+        /* background-image: url(img/ArgentinaDePie_ContentBackground_mobile.jpg) !important;         */
         /* background-position: center !important; */
         /* background-repeat: no-repeat; */
         /* display: block; */
@@ -140,10 +140,12 @@
     .divRedesBottom 
     {    
         width: unset !important;
+        font-size: 3.7vw !important;
     }
 
     textarea.form-control
     {
         height: 100px;
     }
+    
 }
