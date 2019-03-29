@@ -29,6 +29,11 @@
         padding-bottom:5%;
     }
 
+    .marginLeft
+    {
+        background-image: url(img/ArgentinaDePie_ContentBackground_MarginLeft_Mobile.png) !important;       
+    }
+
     .divRedes
     {
         padding-top:0vh;
