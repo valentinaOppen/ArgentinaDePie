@@ -8,8 +8,8 @@ $contactanos = filter_var($_POST['contactanos'], FILTER_SANITIZE_STRING);
 $categoria = filter_var($_POST['categoria'], FILTER_SANITIZE_STRING);
 $name = filter_var($_POST['nombre'], FILTER_SANITIZE_STRING);
 $place = filter_var($_POST['residencia'], FILTER_SANITIZE_STRING);
-$mail = filter_var($_POST['mail'], FILTER_VALIDATE_EMAIL);
-$celular = filter_var($_POST['celular'], FILTER_VALIDATE_EMAIL);
+$email = filter_var($_POST['mail'], FILTER_VALIDATE_EMAIL);
+$celular = filter_var($_POST['celular'], FILTER_SANITIZE_STRING);
 
 // O Utilizar 
 // $name = filter_input(INPUT_POST, "name", FILTER_SANITIZE_STRING);
@@ -39,6 +39,7 @@ $mail->SMTPAuth = true;
 
 // SMTP a utilizar. Por ej. smtp.elserver.com
 $mail->Host = "c0990242.ferozo.com"; 
+
 // Correo completo a utilizar
 $mail->Username = "comunicacion@sergiomassa.com.ar"; 
 $mail->Password = "6*@S*WL5eZ"; // Contraseña
@@ -60,8 +61,8 @@ $mail->IsHTML(true);
 // Este es el asunto
 $mail->Subject = $name . " contacto por " . $categoria; 
 
-$body = "Contacto por: " . $categoria
-        ".<br/>Email: "   . $email . 
+$body = "Contacto por: " . $categoria .
+        "<br/>Email: "   . $email . 
         "<br/>Nombre: "  . $name . " <br/>Lugar: " . $place  . 
         "<br/>Celular: " . $celular . "<br/> contactanos";
 
