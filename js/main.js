@@ -20,7 +20,7 @@ $(document).ready(function() {
             }
         });
     });
-
+/*
     $("form").submit( function(e) {
         
         e.preventDefault();console.log($(this)); return;
@@ -37,10 +37,5 @@ $(document).ready(function() {
 
         var data = $("#formulario").serialize();
         
-    });
+    });*/
 });
-
-function sendForm (data) {
-
-
-}
