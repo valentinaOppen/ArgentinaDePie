@@ -73,7 +73,7 @@ $exito = $mail->Send(); // Envía el correo.
 
 if($exito) {
     $data['code']    = 200;
-    $data['message'] = 'Gracias por sumarte, estaremos contactandote a la brevedad.';
+    $data['message'] = '¡Muchas gracias! Pronto nos pondremos en contacto.';
 } else {
     $data['code']    = 500;
     $data['message'] = 'Hubo un error al guardar el mensaje, reintenta en unos minutos.';
