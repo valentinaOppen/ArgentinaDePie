@@ -87,7 +87,7 @@
         display:none;
     }
 
-    #btnEnviarCategoria
+    .btnEnviarCategoria
     {
         font-size:3vw !important;
     }
