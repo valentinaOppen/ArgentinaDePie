@@ -12,8 +12,10 @@ $(document).ready(function() {
         
         var inputs =  form.find('input');
         
+        inputs.push(form.find('textarea')[0]);
+
         //Validacion de campo vacio.
-        var finish = inputs.length;
+        var finish = inputs.length - 1;
         var valid = true;
 
         inputs.each(function(e, a) {
@@ -26,10 +28,7 @@ $(document).ready(function() {
                 
             if(e == finish && valid === true){
                 var data = form.serialize();
-
-                //Reseteamos formulario
-                form.closest("form").trigger("reset");                
-                
+         
                 //Codigo para desabilitar boton de envio.
         
                 theBtn.addClass('disabled');
@@ -42,6 +41,8 @@ $(document).ready(function() {
                     //some code going here if success 
                     if(data.message && data.code == 200) {
                         $('#responseMessage').text(data.message);
+                        //Reseteamos formulario
+                        form.closest("form").trigger("reset");       
                         $('#alert').show(); 
                     } else {
                         $('#responseMessageError').text(data.message);
