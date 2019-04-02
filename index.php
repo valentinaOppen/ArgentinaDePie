@@ -48,322 +48,345 @@
             <div class="divCategoria">                
                 <button class="btnCategoria" type="button" id="btnCategoriaCrecimiento" data-toggle="collapse" data-target="#crecimiento">CRECIMIENTO Y DESARROLLO</button>                                     
             </div>
-            <div class="divFormulario collapse" id="crecimiento">
-                <form id="formularioCrecimineto" class="textFormulario">
-                    <p class="pCategorias">¿Qué políticas creés que deben llevarse a cabo para que podamos tener un país con un crecimiento y desarrollo sostenido?</p>
-                    <p class="pContanos">¡CONTANOS!</p>
-                    <div class="input-group">                            
-                        <textarea name="contactanos" class="form-control" aria-label="With textarea"></textarea>
-                    </div>
-                    <p class="pCategorias" style="padding:5% 0 1% 0">Colocá tus datos para terminar de cargar la propuesta</p>
-                    <div class="gridCamposPropuesta">
-                        <input type="hidden" value="crecimiento" name="categoria" />
-                        <input name="nombre" type="text" class="form-control" placeholder="" aria-label="nombre" aria-describedby="basic-addon1">
-                        <p class="pLabels pLabelMobile">NOMBRE COMPLETO</p>
-                        <input name="residencia" type="text" class="form-control" placeholder="" aria-label="residencia" aria-describedby="basic-addon1">
-                        <p class="pLabels pLabelMobile">ZONA DE RESIDENCIA</p>
-                        <input name="mail" type="text" class="form-control" placeholder="" aria-label="mail" aria-describedby="basic-addon1">
-                        <p class="pLabels pLabelMobile">MAIL</p>
-                        <input name="celular" type="text" class="form-control" placeholder="" aria-label="celular" aria-describedby="basic-addon1">
-                        <p class="pLabels pLabelMobile">CELULAR</p>
-                        <p class="pLabels">NOMBRE COMPLETO</p>
-                        <p class="pLabels">ZONA DE RESIDENCIA</p>
-                        <p class="pLabels">MAIL</p>
-                        <p class="pLabels">CELULAR</p>
-                    </div>
-                    <button type="button"  class="btnEnviarCategoria">ENVIAR ></button>
-                </form>
-            </div>   
+            <div class="collapse" id="crecimiento" style="">
+                <div class="divFormulario">
+                    <form id="formularioCrecimineto" class="textFormulario">
+                        <p class="pCategorias">¿Qué políticas creés que deben llevarse a cabo para que podamos tener un país con un crecimiento y desarrollo sostenido?</p>
+                        <p class="pContanos">¡CONTANOS!</p>
+                        <div class="input-group">                            
+                            <textarea name="contactanos" class="form-control" aria-label="With textarea"></textarea>
+                        </div>
+                        <p class="pCategorias" style="padding:5% 0 1% 0">Colocá tus datos para terminar de cargar la propuesta</p>
+                        <div class="gridCamposPropuesta">
+                            <input type="hidden" value="crecimiento" name="categoria" />
+                            <input name="nombre" type="text" class="form-control" placeholder="" aria-label="nombre" aria-describedby="basic-addon1">
+                            <p class="pLabels pLabelMobile">NOMBRE COMPLETO</p>
+                            <input name="residencia" type="text" class="form-control" placeholder="" aria-label="residencia" aria-describedby="basic-addon1">
+                            <p class="pLabels pLabelMobile">ZONA DE RESIDENCIA</p>
+                            <input name="mail" type="text" class="form-control" placeholder="" aria-label="mail" aria-describedby="basic-addon1">
+                            <p class="pLabels pLabelMobile">MAIL</p>
+                            <input name="celular" type="text" class="form-control" placeholder="" aria-label="celular" aria-describedby="basic-addon1">
+                            <p class="pLabels pLabelMobile">CELULAR</p>
+                            <p class="pLabels">NOMBRE COMPLETO</p>
+                            <p class="pLabels">ZONA DE RESIDENCIA</p>
+                            <p class="pLabels">MAIL</p>
+                            <p class="pLabels">CELULAR</p>
+                        </div>
+                        <button type="button"  class="btnEnviarCategoria">ENVIAR ></button>
+                    </form>
+                </div>  
+            </div> 
             <div class="divCategoria">                
                 <button class="btnCategoria" data-toggle="collapse" data-target="#desigualdad">LUCHA CONTRA LA DESIGUALDAD</button>                                     
             </div>
-            <div class="divFormulario collapse in" id="desigualdad">
-                <form class="textFormulario">
-                    <p class="pCategorias">¿Qué proponés para achicar la brecha entre ricos y pobres? </p>
-                    <p class="pContanos">¡CONTANOS!</p>
-                    <div class="input-group">                            
-                        <textarea name="contactanos" class="form-control" aria-label="With textarea"></textarea>
-                    </div>
-                    <p class="pCategorias" style="padding:5% 0 1% 0">Colocá tus datos para terminar de cargar la propuesta</p>
-                    <div class="gridCamposPropuesta">
-                        <input type="hidden" value="desigualdad" name="categoria" />
-                        <input name="nombre" type="text" class="form-control" placeholder="" aria-label="nombre" aria-describedby="basic-addon1">
-                        <p class="pLabels pLabelMobile">NOMBRE COMPLETO</p>
-                        <input name="residencia" type="text" class="form-control" placeholder="" aria-label="residencia" aria-describedby="basic-addon1">
-                        <p class="pLabels pLabelMobile">ZONA DE RESIDENCIA</p>
-                        <input name="mail" type="text" class="form-control" placeholder="" aria-label="mail" aria-describedby="basic-addon1">
-                        <p class="pLabels pLabelMobile">MAIL</p>
-                        <input name="celular" type="text" class="form-control" placeholder="" aria-label="celular" aria-describedby="basic-addon1">
-                        <p class="pLabels pLabelMobile">CELULAR</p>
-                        <p class="pLabels">NOMBRE COMPLETO</p>
-                        <p class="pLabels">ZONA DE RESIDENCIA</p>
-                        <p class="pLabels">MAIL</p>
-                        <p class="pLabels">CELULAR</p>
-                    </div>
-                    <button type="button" class="btnEnviarCategoria">ENVIAR ></button>
-                </form>
-            </div>   
+            <div class="collapse" id="desigualdad">
+                <div class="divFormulario">
+                    <form class="textFormulario">
+                        <p class="pCategorias">¿Qué proponés para achicar la brecha entre ricos y pobres? </p>
+                        <p class="pContanos">¡CONTANOS!</p>
+                        <div class="input-group">                            
+                            <textarea name="contactanos" class="form-control" aria-label="With textarea"></textarea>
+                        </div>
+                        <p class="pCategorias" style="padding:5% 0 1% 0">Colocá tus datos para terminar de cargar la propuesta</p>
+                        <div class="gridCamposPropuesta">
+                            <input type="hidden" value="desigualdad" name="categoria" />
+                            <input name="nombre" type="text" class="form-control" placeholder="" aria-label="nombre" aria-describedby="basic-addon1">
+                            <p class="pLabels pLabelMobile">NOMBRE COMPLETO</p>
+                            <input name="residencia" type="text" class="form-control" placeholder="" aria-label="residencia" aria-describedby="basic-addon1">
+                            <p class="pLabels pLabelMobile">ZONA DE RESIDENCIA</p>
+                            <input name="mail" type="text" class="form-control" placeholder="" aria-label="mail" aria-describedby="basic-addon1">
+                            <p class="pLabels pLabelMobile">MAIL</p>
+                            <input name="celular" type="text" class="form-control" placeholder="" aria-label="celular" aria-describedby="basic-addon1">
+                            <p class="pLabels pLabelMobile">CELULAR</p>
+                            <p class="pLabels">NOMBRE COMPLETO</p>
+                            <p class="pLabels">ZONA DE RESIDENCIA</p>
+                            <p class="pLabels">MAIL</p>
+                            <p class="pLabels">CELULAR</p>
+                        </div>
+                        <button type="button" class="btnEnviarCategoria">ENVIAR ></button>
+                    </form>
+                </div>
+            </div> 
+
             <div class="divCategoria">                
                 <button class="btnCategoria" data-toggle="collapse" data-target="#infancia">INFANCIA</button>                                     
             </div>
-            <div class="divFormulario collapse" id="infancia">
-                <form class="textFormulario">
-                    <p class="pCategorias">¿Qué medida te imaginás que se podría llevar a cabo para asegurarle a todos los chicos una infancia sana y feliz?</p>
-                    <p class="pContanos">¡CONTANOS!</p>
-                    <div class="input-group">                            
-                        <textarea name="contactanos" class="form-control" aria-label="With textarea"></textarea>
-                    </div>
-                    <p class="pCategorias" style="padding:5% 0 1% 0">Colocá tus datos para terminar de cargar la propuesta</p>
-                    <div class="gridCamposPropuesta">
-                        <input type="hidden" value="infancia" name="categoria" />
-                        <input name="nombre" type="text" class="form-control" placeholder="" aria-label="nombre" aria-describedby="basic-addon1">
-                        <p class="pLabels pLabelMobile">NOMBRE COMPLETO</p>
-                        <input name="residencia" type="text" class="form-control" placeholder="" aria-label="residencia" aria-describedby="basic-addon1">
-                        <p class="pLabels pLabelMobile">ZONA DE RESIDENCIA</p>
-                        <input name="mail" type="text" class="form-control" placeholder="" aria-label="mail" aria-describedby="basic-addon1">
-                        <p class="pLabels pLabelMobile">MAIL</p>
-                        <input name="celular" type="text" class="form-control" placeholder="" aria-label="celular" aria-describedby="basic-addon1">
-                        <p class="pLabels pLabelMobile">CELULAR</p>
-                        <p class="pLabels">NOMBRE COMPLETO</p>
-                        <p class="pLabels">ZONA DE RESIDENCIA</p>
-                        <p class="pLabels">MAIL</p>
-                        <p class="pLabels">CELULAR</p>
-                    </div>
-                    <button type="button"  class="btnEnviarCategoria">ENVIAR ></button>
-                </form>
-            </div>   
+            <div class="collapse" id="infancia">
+                <div class="divFormulario">
+                    <form class="textFormulario">
+                        <p class="pCategorias">¿Qué medida te imaginás que se podría llevar a cabo para asegurarle a todos los chicos una infancia sana y feliz?</p>
+                        <p class="pContanos">¡CONTANOS!</p>
+                        <div class="input-group">                            
+                            <textarea name="contactanos" class="form-control" aria-label="With textarea"></textarea>
+                        </div>
+                        <p class="pCategorias" style="padding:5% 0 1% 0">Colocá tus datos para terminar de cargar la propuesta</p>
+                        <div class="gridCamposPropuesta">
+                            <input type="hidden" value="infancia" name="categoria" />
+                            <input name="nombre" type="text" class="form-control" placeholder="" aria-label="nombre" aria-describedby="basic-addon1">
+                            <p class="pLabels pLabelMobile">NOMBRE COMPLETO</p>
+                            <input name="residencia" type="text" class="form-control" placeholder="" aria-label="residencia" aria-describedby="basic-addon1">
+                            <p class="pLabels pLabelMobile">ZONA DE RESIDENCIA</p>
+                            <input name="mail" type="text" class="form-control" placeholder="" aria-label="mail" aria-describedby="basic-addon1">
+                            <p class="pLabels pLabelMobile">MAIL</p>
+                            <input name="celular" type="text" class="form-control" placeholder="" aria-label="celular" aria-describedby="basic-addon1">
+                            <p class="pLabels pLabelMobile">CELULAR</p>
+                            <p class="pLabels">NOMBRE COMPLETO</p>
+                            <p class="pLabels">ZONA DE RESIDENCIA</p>
+                            <p class="pLabels">MAIL</p>
+                            <p class="pLabels">CELULAR</p>
+                        </div>
+                        <button type="button"  class="btnEnviarCategoria">ENVIAR ></button>
+                    </form>
+                </div>   
+            </div>
             <div class="divCategoria">                
                 <button class="btnCategoria" data-toggle="collapse" data-target="#educacion">EDUCACIÓN E INSERCIÓN SOCIAL</button>                                     
             </div>
-            <div class="divFormulario collapse" id="educacion">
-                <form class="textFormulario">
-                    <p class="pCategorias">Si tenés una propuesta para mejorar la educación pública y gratuita, esta es tu categoría.</p>
-                    <p class="pContanos">¡CONTANOS!</p>
-                    <div class="input-group">                            
-                        <textarea name="contactanos" class="form-control" aria-label="With textarea"></textarea>
-                    </div>
-                    <p class="pCategorias" style="padding:5% 0 1% 0">Colocá tus datos para terminar de cargar la propuesta</p>
-                    <div class="gridCamposPropuesta">
-                        <input type="hidden" value="infancia" name="educacion" />
-                        <input name="nombre" type="text" class="form-control" placeholder="" aria-label="nombre" aria-describedby="basic-addon1">
-                        <p class="pLabels pLabelMobile">NOMBRE COMPLETO</p>
-                        <input name="residencia" type="text" class="form-control" placeholder="" aria-label="residencia" aria-describedby="basic-addon1">
-                        <p class="pLabels pLabelMobile">ZONA DE RESIDENCIA</p>
-                        <input name="mail" type="text" class="form-control" placeholder="" aria-label="mail" aria-describedby="basic-addon1">
-                        <p class="pLabels pLabelMobile">MAIL</p>
-                        <input name="celular" type="text" class="form-control" placeholder="" aria-label="celular" aria-describedby="basic-addon1">
-                        <p class="pLabels pLabelMobile">CELULAR</p>
-                        <p class="pLabels">NOMBRE COMPLETO</p>
-                        <p class="pLabels">ZONA DE RESIDENCIA</p>
-                        <p class="pLabels">MAIL</p>
-                        <p class="pLabels">CELULAR</p>
-                    </div>
-                    <button type="button"  class="btnEnviarCategoria">ENVIAR ></button>
-                </form>
-            </div>   
+            <div class="collapse" id="educacion">
+                <div class="divFormulario">
+                    <form class="textFormulario">
+                        <p class="pCategorias">Si tenés una propuesta para mejorar la educación pública y gratuita, esta es tu categoría.</p>
+                        <p class="pContanos">¡CONTANOS!</p>
+                        <div class="input-group">                            
+                            <textarea name="contactanos" class="form-control" aria-label="With textarea"></textarea>
+                        </div>
+                        <p class="pCategorias" style="padding:5% 0 1% 0">Colocá tus datos para terminar de cargar la propuesta</p>
+                        <div class="gridCamposPropuesta">
+                            <input type="hidden" value="educacion" name="categoria" />
+                            <input name="nombre" type="text" class="form-control" placeholder="" aria-label="nombre" aria-describedby="basic-addon1">
+                            <p class="pLabels pLabelMobile">NOMBRE COMPLETO</p>
+                            <input name="residencia" type="text" class="form-control" placeholder="" aria-label="residencia" aria-describedby="basic-addon1">
+                            <p class="pLabels pLabelMobile">ZONA DE RESIDENCIA</p>
+                            <input name="mail" type="text" class="form-control" placeholder="" aria-label="mail" aria-describedby="basic-addon1">
+                            <p class="pLabels pLabelMobile">MAIL</p>
+                            <input name="celular" type="text" class="form-control" placeholder="" aria-label="celular" aria-describedby="basic-addon1">
+                            <p class="pLabels pLabelMobile">CELULAR</p>
+                            <p class="pLabels">NOMBRE COMPLETO</p>
+                            <p class="pLabels">ZONA DE RESIDENCIA</p>
+                            <p class="pLabels">MAIL</p>
+                            <p class="pLabels">CELULAR</p>
+                        </div>
+                        <button type="button"  class="btnEnviarCategoria">ENVIAR ></button>
+                    </form>
+                </div>   
+            </div>
             <div class="divCategoria">                
                 <button class="btnCategoria" data-toggle="collapse" data-target="#trabajo">TRABAJO</button>                                     
             </div>
-            <div class="divFormulario collapse" id="trabajo">
-                <form class="textFormulario">
-                    <p class="pCategorias">¿Qué se te ocurre para asegurar trabajo digno para todas y todos?</p>
-                    <p class="pContanos">¡CONTANOS!</p>
-                    <div class="input-group">                            
-                        <textarea name="contactanos" class="form-control" aria-label="With textarea"></textarea>
-                    </div>
-                    <p class="pCategorias" style="padding:5% 0 1% 0">Colocá tus datos para terminar de cargar la propuesta</p>
-                    <div class="gridCamposPropuesta">                        
-                        <input type="hidden" value="trabajo" name="categoria" />
-                        <input name="nombre" type="text" class="form-control" placeholder="" aria-label="nombre" aria-describedby="basic-addon1">
-                        <p class="pLabels pLabelMobile">NOMBRE COMPLETO</p>
-                        <input name="residencia" type="text" class="form-control" placeholder="" aria-label="residencia" aria-describedby="basic-addon1">
-                        <p class="pLabels pLabelMobile">ZONA DE RESIDENCIA</p>
-                        <input name="mail" type="text" class="form-control" placeholder="" aria-label="mail" aria-describedby="basic-addon1">
-                        <p class="pLabels pLabelMobile">MAIL</p>
-                        <input name="celular" type="text" class="form-control" placeholder="" aria-label="celular" aria-describedby="basic-addon1">
-                        <p class="pLabels pLabelMobile">CELULAR</p>
-                        <p class="pLabels">NOMBRE COMPLETO</p>
-                        <p class="pLabels">ZONA DE RESIDENCIA</p>
-                        <p class="pLabels">MAIL</p>
-                        <p class="pLabels">CELULAR</p>
-                    </div>
-                    <button type="button"  class="btnEnviarCategoria">ENVIAR ></button>
-                </form>
-            </div>   
+            <div class="collapse" id="trabajo">
+                <div class="divFormulario">
+                    <form class="textFormulario">
+                        <p class="pCategorias">¿Qué se te ocurre para asegurar trabajo digno para todas y todos?</p>
+                        <p class="pContanos">¡CONTANOS!</p>
+                        <div class="input-group">                            
+                            <textarea name="contactanos" class="form-control" aria-label="With textarea"></textarea>
+                        </div>
+                        <p class="pCategorias" style="padding:5% 0 1% 0">Colocá tus datos para terminar de cargar la propuesta</p>
+                        <div class="gridCamposPropuesta">                        
+                            <input type="hidden" value="trabajo" name="categoria" />
+                            <input name="nombre" type="text" class="form-control" placeholder="" aria-label="nombre" aria-describedby="basic-addon1">
+                            <p class="pLabels pLabelMobile">NOMBRE COMPLETO</p>
+                            <input name="residencia" type="text" class="form-control" placeholder="" aria-label="residencia" aria-describedby="basic-addon1">
+                            <p class="pLabels pLabelMobile">ZONA DE RESIDENCIA</p>
+                            <input name="mail" type="text" class="form-control" placeholder="" aria-label="mail" aria-describedby="basic-addon1">
+                            <p class="pLabels pLabelMobile">MAIL</p>
+                            <input name="celular" type="text" class="form-control" placeholder="" aria-label="celular" aria-describedby="basic-addon1">
+                            <p class="pLabels pLabelMobile">CELULAR</p>
+                            <p class="pLabels">NOMBRE COMPLETO</p>
+                            <p class="pLabels">ZONA DE RESIDENCIA</p>
+                            <p class="pLabels">MAIL</p>
+                            <p class="pLabels">CELULAR</p>
+                        </div>
+                        <button type="button"  class="btnEnviarCategoria">ENVIAR ></button>
+                    </form>
+                </div>   
+            </div>
             <div class="divCategoria">                
                 <button class="btnCategoria" data-toggle="collapse" data-target="#delito">COMBATE DEL DELITO</button>                                     
             </div>
-            <div class="divFormulario collapse" id="delito">
-                <form class="textFormulario">
-                    <p class="pCategorias">Escribí acá si tenés alguna idea, para que todas y todos podamos vivir seguros y en paz.</p>
-                    <p class="pContanos">¡CONTANOS!</p>
-                    <div class="input-group">                            
-                        <textarea name="contactanos" class="form-control" aria-label="With textarea"></textarea>
-                    </div>
-                    <p class="pCategorias" style="padding:5% 0 1% 0">Colocá tus datos para terminar de cargar la propuesta</p>
-                    <div class="gridCamposPropuesta">
-                        <input type="hidden" value="delito" name="categoria" />
-                        <input name="nombre" type="text" class="form-control" placeholder="" aria-label="nombre" aria-describedby="basic-addon1">
-                        <p class="pLabels pLabelMobile">NOMBRE COMPLETO</p>
-                        <input name="residencia" type="text" class="form-control" placeholder="" aria-label="residencia" aria-describedby="basic-addon1">
-                        <p class="pLabels pLabelMobile">ZONA DE RESIDENCIA</p>
-                        <input name="mail" type="text" class="form-control" placeholder="" aria-label="mail" aria-describedby="basic-addon1">
-                        <p class="pLabels pLabelMobile">MAIL</p>
-                        <input name="celular" type="text" class="form-control" placeholder="" aria-label="celular" aria-describedby="basic-addon1">
-                        <p class="pLabels pLabelMobile">CELULAR</p>
-                        <p class="pLabels">NOMBRE COMPLETO</p>
-                        <p class="pLabels">ZONA DE RESIDENCIA</p>
-                        <p class="pLabels">MAIL</p>
-                        <p class="pLabels">CELULAR</p>
-                    </div>
-                    <button type="button"  class="btnEnviarCategoria">ENVIAR ></button>
-                </form>
-            </div>  
+            <div class="collapse" id="delito">
+                <div class="divFormulario">
+                    <form class="textFormulario">
+                        <p class="pCategorias">Escribí acá si tenés alguna idea, para que todas y todos podamos vivir seguros y en paz.</p>
+                        <p class="pContanos">¡CONTANOS!</p>
+                        <div class="input-group">                            
+                            <textarea name="contactanos" class="form-control" aria-label="With textarea"></textarea>
+                        </div>
+                        <p class="pCategorias" style="padding:5% 0 1% 0">Colocá tus datos para terminar de cargar la propuesta</p>
+                        <div class="gridCamposPropuesta">
+                            <input type="hidden" value="delito" name="categoria" />
+                            <input name="nombre" type="text" class="form-control" placeholder="" aria-label="nombre" aria-describedby="basic-addon1">
+                            <p class="pLabels pLabelMobile">NOMBRE COMPLETO</p>
+                            <input name="residencia" type="text" class="form-control" placeholder="" aria-label="residencia" aria-describedby="basic-addon1">
+                            <p class="pLabels pLabelMobile">ZONA DE RESIDENCIA</p>
+                            <input name="mail" type="text" class="form-control" placeholder="" aria-label="mail" aria-describedby="basic-addon1">
+                            <p class="pLabels pLabelMobile">MAIL</p>
+                            <input name="celular" type="text" class="form-control" placeholder="" aria-label="celular" aria-describedby="basic-addon1">
+                            <p class="pLabels pLabelMobile">CELULAR</p>
+                            <p class="pLabels">NOMBRE COMPLETO</p>
+                            <p class="pLabels">ZONA DE RESIDENCIA</p>
+                            <p class="pLabels">MAIL</p>
+                            <p class="pLabels">CELULAR</p>
+                        </div>
+                        <button type="button"  class="btnEnviarCategoria">ENVIAR ></button>
+                    </form>
+                </div>  
+            </div>
             <div class="divCategoria">                
                 <button class="btnCategoria" data-toggle="collapse" data-target="#paridad">PARIDAD</button>                                     
             </div>
             <div class="divFormulario collapse" id="paridad">
-                <form class="textFormulario">
-                    <p class="pCategorias">¿Cómo llegaríamos a lograr un Gobierno justo sin distinciones de género?</p>
-                    <p class="pContanos">¡CONTANOS!</p>
-                    <div class="input-group">                            
-                        <textarea name="contactanos" class="form-control" aria-label="With textarea"></textarea>
-                    </div>
-                    <p class="pCategorias" style="padding:5% 0 1% 0">Colocá tus datos para terminar de cargar la propuesta</p>
-                    <div class="gridCamposPropuesta">
-                        <input type="hidden" value="paridad" name="categoria" />
-                        <input name="nombre" type="text" class="form-control" placeholder="" aria-label="nombre" aria-describedby="basic-addon1">
-                        <p class="pLabels pLabelMobile">NOMBRE COMPLETO</p>
-                        <input name="residencia" type="text" class="form-control" placeholder="" aria-label="residencia" aria-describedby="basic-addon1">
-                        <p class="pLabels pLabelMobile">ZONA DE RESIDENCIA</p>
-                        <input name="mail" type="text" class="form-control" placeholder="" aria-label="mail" aria-describedby="basic-addon1">
-                        <p class="pLabels pLabelMobile">MAIL</p>
-                        <input name="celular" type="text" class="form-control" placeholder="" aria-label="celular" aria-describedby="basic-addon1">
-                        <p class="pLabels pLabelMobile">CELULAR</p>
-                        <p class="pLabels">NOMBRE COMPLETO</p>
-                        <p class="pLabels">ZONA DE RESIDENCIA</p>
-                        <p class="pLabels">MAIL</p>
-                        <p class="pLabels">CELULAR</p>
-                    </div>
-                    <button type="button"  class="btnEnviarCategoria">ENVIAR ></button>
-                </form>
+                <div class="divFormulario">
+                    <form class="textFormulario">
+                        <p class="pCategorias">¿Cómo llegaríamos a lograr un Gobierno justo sin distinciones de género?</p>
+                        <p class="pContanos">¡CONTANOS!</p>
+                        <div class="input-group">                            
+                            <textarea name="contactanos" class="form-control" aria-label="With textarea"></textarea>
+                        </div>
+                        <p class="pCategorias" style="padding:5% 0 1% 0">Colocá tus datos para terminar de cargar la propuesta</p>
+                        <div class="gridCamposPropuesta">
+                            <input type="hidden" value="paridad" name="categoria" />
+                            <input name="nombre" type="text" class="form-control" placeholder="" aria-label="nombre" aria-describedby="basic-addon1">
+                            <p class="pLabels pLabelMobile">NOMBRE COMPLETO</p>
+                            <input name="residencia" type="text" class="form-control" placeholder="" aria-label="residencia" aria-describedby="basic-addon1">
+                            <p class="pLabels pLabelMobile">ZONA DE RESIDENCIA</p>
+                            <input name="mail" type="text" class="form-control" placeholder="" aria-label="mail" aria-describedby="basic-addon1">
+                            <p class="pLabels pLabelMobile">MAIL</p>
+                            <input name="celular" type="text" class="form-control" placeholder="" aria-label="celular" aria-describedby="basic-addon1">
+                            <p class="pLabels pLabelMobile">CELULAR</p>
+                            <p class="pLabels">NOMBRE COMPLETO</p>
+                            <p class="pLabels">ZONA DE RESIDENCIA</p>
+                            <p class="pLabels">MAIL</p>
+                            <p class="pLabels">CELULAR</p>
+                        </div>
+                        <button type="button"  class="btnEnviarCategoria">ENVIAR ></button>
+                    </form>
+                </div>
             </div> 
             <div class="divCategoria">                
                 <button class="btnCategoria" data-toggle="collapse" data-target="#medioambiente">MEDIO AMBIENTE</button>                                     
             </div>
-            <div class="divFormulario collapse" id="medioambiente">
-                <form class="textFormulario">
-                    <p class="pCategorias">¿Qué política de Estado proponés para proteger nuestro medio ambiente?</p>
-                    <p class="pContanos">¡CONTANOS!</p>
-                    <div class="input-group">                            
-                        <textarea name="contactanos" class="form-control" aria-label="With textarea"></textarea>
-                    </div>
-                    <p class="pCategorias" style="padding:5% 0 1% 0">Colocá tus datos para terminar de cargar la propuesta</p>
-                    <div class="gridCamposPropuesta">
-                        <input type="hidden" value="medio ambiente" name="categoria" />
-                        <input name="nombre" type="text" class="form-control" placeholder="" aria-label="nombre" aria-describedby="basic-addon1">
-                        <p class="pLabels pLabelMobile">NOMBRE COMPLETO</p>
-                        <input name="residencia" type="text" class="form-control" placeholder="" aria-label="residencia" aria-describedby="basic-addon1">
-                        <p class="pLabels pLabelMobile">ZONA DE RESIDENCIA</p>
-                        <input name="mail" type="text" class="form-control" placeholder="" aria-label="mail" aria-describedby="basic-addon1">
-                        <p class="pLabels pLabelMobile">MAIL</p>
-                        <input name="celular" type="text" class="form-control" placeholder="" aria-label="celular" aria-describedby="basic-addon1">
-                        <p class="pLabels pLabelMobile">CELULAR</p>
-                        <p class="pLabels">NOMBRE COMPLETO</p>
-                        <p class="pLabels">ZONA DE RESIDENCIA</p>
-                        <p class="pLabels">MAIL</p>
-                        <p class="pLabels">CELULAR</p>
-                    </div>
-                    <button type="button"  class="btnEnviarCategoria">ENVIAR ></button>
-                </form>
-            </div> 
+            <div class="collapse" id="medioambiente">
+                <div class="divFormulario">
+                    <form class="textFormulario">
+                        <p class="pCategorias">¿Qué política de Estado proponés para proteger nuestro medio ambiente?</p>
+                        <p class="pContanos">¡CONTANOS!</p>
+                        <div class="input-group">                            
+                            <textarea name="contactanos" class="form-control" aria-label="With textarea"></textarea>
+                        </div>
+                        <p class="pCategorias" style="padding:5% 0 1% 0">Colocá tus datos para terminar de cargar la propuesta</p>
+                        <div class="gridCamposPropuesta">
+                            <input type="hidden" value="medio ambiente" name="categoria" />
+                            <input name="nombre" type="text" class="form-control" placeholder="" aria-label="nombre" aria-describedby="basic-addon1">
+                            <p class="pLabels pLabelMobile">NOMBRE COMPLETO</p>
+                            <input name="residencia" type="text" class="form-control" placeholder="" aria-label="residencia" aria-describedby="basic-addon1">
+                            <p class="pLabels pLabelMobile">ZONA DE RESIDENCIA</p>
+                            <input name="mail" type="text" class="form-control" placeholder="" aria-label="mail" aria-describedby="basic-addon1">
+                            <p class="pLabels pLabelMobile">MAIL</p>
+                            <input name="celular" type="text" class="form-control" placeholder="" aria-label="celular" aria-describedby="basic-addon1">
+                            <p class="pLabels pLabelMobile">CELULAR</p>
+                            <p class="pLabels">NOMBRE COMPLETO</p>
+                            <p class="pLabels">ZONA DE RESIDENCIA</p>
+                            <p class="pLabels">MAIL</p>
+                            <p class="pLabels">CELULAR</p>
+                        </div>
+                        <button type="button"  class="btnEnviarCategoria">ENVIAR ></button>
+                    </form>
+                </div> 
+            </div>
             <div class="divCategoria">                
                 <button class="btnCategoria" data-toggle="collapse" data-target="#modernizacion">MODERNIZACIÓN INSTITUCIONAL</button>                                     
             </div>
-            <div class="divFormulario collapse" id="modernizacion">
-                <form class="textFormulario">
-                    <p class="pCategorias">¿Qué ideas se te ocurren para construir un Gobierno más transparente y que responda mejor a las necesidades de los argentinos?</p>
-                    <p class="pContanos">¡CONTANOS!</p>
-                    <div class="input-group">                            
-                        <textarea name="contactanos" class="form-control" aria-label="With textarea"></textarea>
-                    </div>
-                    <p class="pCategorias" style="padding:5% 0 1% 0">Colocá tus datos para terminar de cargar la propuesta</p>
-                    <div class="gridCamposPropuesta">
-                        <input type="hidden" value="modernizacion" name="categoria" />
-                        <input name="nombre" type="text" class="form-control" placeholder="" aria-label="nombre" aria-describedby="basic-addon1">
-                        <p class="pLabels pLabelMobile">NOMBRE COMPLETO</p>
-                        <input name="residencia" type="text" class="form-control" placeholder="" aria-label="residencia" aria-describedby="basic-addon1">
-                        <p class="pLabels pLabelMobile">ZONA DE RESIDENCIA</p>
-                        <input name="mail" type="text" class="form-control" placeholder="" aria-label="mail" aria-describedby="basic-addon1">
-                        <p class="pLabels pLabelMobile">MAIL</p>
-                        <input name="celular" type="text" class="form-control" placeholder="" aria-label="celular" aria-describedby="basic-addon1">
-                        <p class="pLabels pLabelMobile">CELULAR</p>
-                        <p class="pLabels">NOMBRE COMPLETO</p>
-                        <p class="pLabels">ZONA DE RESIDENCIA</p>
-                        <p class="pLabels">MAIL</p>
-                        <p class="pLabels">CELULAR</p>
-                    </div>
-                    <button type="button"  class="btnEnviarCategoria">ENVIAR ></button>
-                </form>
-            </div> 
+            <div class="collapse" id="modernizacion">
+                <div class="divFormulario">
+                    <form class="textFormulario">
+                        <p class="pCategorias">¿Qué ideas se te ocurren para construir un Gobierno más transparente y que responda mejor a las necesidades de los argentinos?</p>
+                        <p class="pContanos">¡CONTANOS!</p>
+                        <div class="input-group">                            
+                            <textarea name="contactanos" class="form-control" aria-label="With textarea"></textarea>
+                        </div>
+                        <p class="pCategorias" style="padding:5% 0 1% 0">Colocá tus datos para terminar de cargar la propuesta</p>
+                        <div class="gridCamposPropuesta">
+                            <input type="hidden" value="modernizacion" name="categoria" />
+                            <input name="nombre" type="text" class="form-control" placeholder="" aria-label="nombre" aria-describedby="basic-addon1">
+                            <p class="pLabels pLabelMobile">NOMBRE COMPLETO</p>
+                            <input name="residencia" type="text" class="form-control" placeholder="" aria-label="residencia" aria-describedby="basic-addon1">
+                            <p class="pLabels pLabelMobile">ZONA DE RESIDENCIA</p>
+                            <input name="mail" type="text" class="form-control" placeholder="" aria-label="mail" aria-describedby="basic-addon1">
+                            <p class="pLabels pLabelMobile">MAIL</p>
+                            <input name="celular" type="text" class="form-control" placeholder="" aria-label="celular" aria-describedby="basic-addon1">
+                            <p class="pLabels pLabelMobile">CELULAR</p>
+                            <p class="pLabels">NOMBRE COMPLETO</p>
+                            <p class="pLabels">ZONA DE RESIDENCIA</p>
+                            <p class="pLabels">MAIL</p>
+                            <p class="pLabels">CELULAR</p>
+                        </div>
+                        <button type="button"  class="btnEnviarCategoria">ENVIAR ></button>
+                    </form>
+                </div> 
+            </div>
             <div class="divCategoria">                
                 <button class="btnCategoria" data-toggle="collapse" data-target="#desarrollofederal">DESARROLLO FEDERAL</button>                                     
             </div>
-            <div class="divFormulario collapse" id="desarrollofederal">
-                <form class="textFormulario">
-                    <p class="pCategorias">¿Qué idea tenés para lograr que, sin importar en qué provincia nazcas, las oportunidades sean iguales para todas y todos?</p>
-                    <p class="pContanos">¡CONTANOS!</p>
-                    <div class="input-group">                            
-                        <textarea name="contactanos" class="form-control" aria-label="With textarea"></textarea>
-                    </div>
-                    <p class="pCategorias" style="padding:5% 0 1% 0">Colocá tus datos para terminar de cargar la propuesta</p>
-                    <div class="gridCamposPropuesta">
-                        <input type="hidden" value="desarrollo federal" name="categoria" />
-                        <input name="nombre" type="text" class="form-control" placeholder="" aria-label="nombre" aria-describedby="basic-addon1">
-                        <p class="pLabels pLabelMobile">NOMBRE COMPLETO</p>
-                        <input name="residencia" type="text" class="form-control" placeholder="" aria-label="residencia" aria-describedby="basic-addon1">
-                        <p class="pLabels pLabelMobile">ZONA DE RESIDENCIA</p>
-                        <input name="mail" type="text" class="form-control" placeholder="" aria-label="mail" aria-describedby="basic-addon1">
-                        <p class="pLabels pLabelMobile">MAIL</p>
-                        <input name="celular" type="text" class="form-control" placeholder="" aria-label="celular" aria-describedby="basic-addon1">
-                        <p class="pLabels pLabelMobile">CELULAR</p>
-                        <p class="pLabels">NOMBRE COMPLETO</p>
-                        <p class="pLabels">ZONA DE RESIDENCIA</p>
-                        <p class="pLabels">MAIL</p>
-                        <p class="pLabels">CELULAR</p>
-                    </div>
-                    <button type="button"  class="btnEnviarCategoria">ENVIAR ></button>
-                </form>
+            <div class="collapse" id="desarrollofederal">
+                <div class="divFormulario">
+                    <form class="textFormulario">
+                        <p class="pCategorias">¿Qué idea tenés para lograr que, sin importar en qué provincia nazcas, las oportunidades sean iguales para todas y todos?</p>
+                        <p class="pContanos">¡CONTANOS!</p>
+                        <div class="input-group">                            
+                            <textarea name="contactanos" class="form-control" aria-label="With textarea"></textarea>
+                        </div>
+                        <p class="pCategorias" style="padding:5% 0 1% 0">Colocá tus datos para terminar de cargar la propuesta</p>
+                        <div class="gridCamposPropuesta">
+                            <input type="hidden" value="desarrollo federal" name="categoria" />
+                            <input name="nombre" type="text" class="form-control" placeholder="" aria-label="nombre" aria-describedby="basic-addon1">
+                            <p class="pLabels pLabelMobile">NOMBRE COMPLETO</p>
+                            <input name="residencia" type="text" class="form-control" placeholder="" aria-label="residencia" aria-describedby="basic-addon1">
+                            <p class="pLabels pLabelMobile">ZONA DE RESIDENCIA</p>
+                            <input name="mail" type="text" class="form-control" placeholder="" aria-label="mail" aria-describedby="basic-addon1">
+                            <p class="pLabels pLabelMobile">MAIL</p>
+                            <input name="celular" type="text" class="form-control" placeholder="" aria-label="celular" aria-describedby="basic-addon1">
+                            <p class="pLabels pLabelMobile">CELULAR</p>
+                            <p class="pLabels">NOMBRE COMPLETO</p>
+                            <p class="pLabels">ZONA DE RESIDENCIA</p>
+                            <p class="pLabels">MAIL</p>
+                            <p class="pLabels">CELULAR</p>
+                        </div>
+                        <button type="button"  class="btnEnviarCategoria">ENVIAR ></button>
+                    </form>
+                </div> 
             </div> 
             <div class="divCategoria">                
                 <button class="btnCategoria" data-toggle="collapse" data-target="#otra">OTRA</button>                                     
             </div>
-            <div class="divFormulario collapse" id="otra">
-                <form class="textFormulario">
-                    <p class="pCategorias">Si las otras categorías no se adecuan a tu propuesta, podés escribir tu idea acá.</p>
-                    <p class="pContanos">¡CONTANOS!</p>
-                    <div class="input-group">                            
-                        <textarea name="contactanos" class="form-control" aria-label="With textarea"></textarea>
-                    </div>
-                    <p class="pCategorias" style="padding:5% 0 1% 0">Colocá tus datos para terminar de cargar la propuesta</p>
-                    <div class="gridCamposPropuesta">
-                        <input type="hidden" value="otra" name="categoria" />
-                        <input name="nombre" type="text" class="form-control" placeholder="" aria-label="nombre" aria-describedby="basic-addon1">
-                        <p class="pLabels pLabelMobile">NOMBRE COMPLETO</p>
-                        <input name="residencia" type="text" class="form-control" placeholder="" aria-label="residencia" aria-describedby="basic-addon1">
-                        <p class="pLabels pLabelMobile">ZONA DE RESIDENCIA</p>
-                        <input name="mail" type="text" class="form-control" placeholder="" aria-label="mail" aria-describedby="basic-addon1">
-                        <p class="pLabels pLabelMobile">MAIL</p>
-                        <input name="celular" type="text" class="form-control" placeholder="" aria-label="celular" aria-describedby="basic-addon1">
-                        <p class="pLabels pLabelMobile">CELULAR</p>
-                        <p class="pLabels">NOMBRE COMPLETO</p>
-                        <p class="pLabels">ZONA DE RESIDENCIA</p>
-                        <p class="pLabels">MAIL</p>
-                        <p class="pLabels">CELULAR</p>
-                    </div>
-                    <button type="button"  class="btnEnviarCategoria">ENVIAR ></button>
-                </form>
-            </div>             
+            <div class="collapse" id="otra">
+                <div class="divFormulario">
+                    <form class="textFormulario">
+                        <p class="pCategorias">Si las otras categorías no se adecuan a tu propuesta, podés escribir tu idea acá.</p>
+                        <p class="pContanos">¡CONTANOS!</p>
+                        <div class="input-group">                            
+                            <textarea name="contactanos" class="form-control" aria-label="With textarea"></textarea>
+                        </div>
+                        <p class="pCategorias" style="padding:5% 0 1% 0">Colocá tus datos para terminar de cargar la propuesta</p>
+                        <div class="gridCamposPropuesta">
+                            <input type="hidden" value="otra" name="categoria" />
+                            <input name="nombre" type="text" class="form-control" placeholder="" aria-label="nombre" aria-describedby="basic-addon1">
+                            <p class="pLabels pLabelMobile">NOMBRE COMPLETO</p>
+                            <input name="residencia" type="text" class="form-control" placeholder="" aria-label="residencia" aria-describedby="basic-addon1">
+                            <p class="pLabels pLabelMobile">ZONA DE RESIDENCIA</p>
+                            <input name="mail" type="text" class="form-control" placeholder="" aria-label="mail" aria-describedby="basic-addon1">
+                            <p class="pLabels pLabelMobile">MAIL</p>
+                            <input name="celular" type="text" class="form-control" placeholder="" aria-label="celular" aria-describedby="basic-addon1">
+                            <p class="pLabels pLabelMobile">CELULAR</p>
+                            <p class="pLabels">NOMBRE COMPLETO</p>
+                            <p class="pLabels">ZONA DE RESIDENCIA</p>
+                            <p class="pLabels">MAIL</p>
+                            <p class="pLabels">CELULAR</p>
+                        </div>
+                        <button type="button"  class="btnEnviarCategoria">ENVIAR ></button>
+                    </form>
+                </div>                                      
+            </div>            
         </section>
         <div class="marginRight"></div>
     </div>
