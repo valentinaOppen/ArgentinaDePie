@@ -20,7 +20,7 @@
                     <a href="https://twitter.com/SergioMassa" target="_blank"><i class="fab fa-twitter"></i></a>
                     <a href="https://www.facebook.com/SergioMassaOK/" target="_blank"><i class="fab fa-facebook-f"></i></a>
                     <a href="https://www.instagram.com/sergiomassaok" target="_blank"><i class="fab fa-instagram"></i></a>
-                    <a href="https://www.linkedin.com/in/massasergio/ " target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.linkedin.com/in/massasergio/" target="_blank"><i class="fab fa-linkedin"></i></a>
             </div>
             <div class="divTitle">
                 <p id="pTitle">PONGAMOS A LA ARGENTINA DE PIE</p>
