@@ -32,29 +32,35 @@ $(document).ready(function() {
                 //Codigo para desabilitar boton de envio.
         
                 theBtn.addClass('disabled');
-        
-                $.ajax({
-                    url: '/api/mail.php',
-                    type: 'POST',
-                    data: data,
-                }).done(function(data) {
-                    //some code going here if success 
-                    if(data.message && data.code == 200) {
-                        $('#responseMessage').text(data.message);
-                        //Reseteamos formulario
-                        form.closest("form").trigger("reset");       
-                        $('#alert').show(); 
-                    } else {
-                        $('#responseMessageError').text(data.message);
-                        $('#alertError').show();
-                    }
-                    theBtn.removeClass('disabled'); 
-                }).fail(function() {
-                    if(data.message) {
-                        $('#responseMessageError').text(data.message);
-                        $('#alertError').show();
-                        theBtn.removeClass('disabled'); 
-                    }
+                // needs for recaptacha ready
+                grecaptcha.ready(function() {
+                    // do request for recaptcha token
+                    // response is promise with passed token
+                    grecaptcha.execute('6LehkpsUAAAAAK8vxzil8kjSXp5YZfQzZb__p7ze', {action: 'create_comment'}).then(function(token) {
+                        $.ajax({
+                            url: '/api/mail.php',
+                            type: 'POST',
+                            data: data + "&token=" + token,
+                        }).done(function(data) {
+                            //some code going here if success 
+                            if(data.message && data.code == 200) {
+                                $('#responseMessage').text(data.message);
+                                //Reseteamos formulario
+                                form.closest("form").trigger("reset");       
+                                $('#alert').show(); 
+                            } else {
+                                $('#responseMessageError').text(data.message);
+                                $('#alertError').show();
+                            }
+                            theBtn.removeClass('disabled'); 
+                        }).fail(function() {
+                            if(data.message) {
+                                $('#responseMessageError').text(data.message);
+                                $('#alertError').show();
+                                theBtn.removeClass('disabled'); 
+                            }
+                        });
+                    });
                 });
             }
 
